@@ -1,0 +1,104 @@
+.jun-meter {
+    position: relative;
+    width: 640px;
+    height: 640px;
+    background-image: url("../img/ring.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 1%;
+
+    .jun-time-rect {
+        position: absolute;
+        width: 30px;
+        height: 80px;
+        left: 300px;
+        top: 180px;
+        background-image: url("../img/rect.svg");
+        background-size: 40px 40px;
+    }
+
+    .jun-time-h {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 150px;
+        top: 150px;
+        font-size: 100px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .jun-time-m {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 370px;
+        top: 150px;
+        font-size: 100px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .jun-time-s {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 430px;
+        top: 280px;
+        font-size: 100px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .jun-human {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 250px;
+        top: 280px;
+        background-image: url("../img/human.gif");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+
+.opt {
+    margin: 1% auto;
+    text-align: center;
+
+    input {
+        width: 190px;
+        height: 60px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        box-shadow: 5px 5px 5px #ccc;
+        margin: 10px;
+        outline: none;
+        font-size: 30px;
+    }
+
+    .timeIn {
+        #timeInp {
+            width: 500px !important;
+        }
+
+        #determine {
+            width: 100px !important;
+        }
+
+    }
+
+    .btn:hover {
+        border: none;
+        color: #fff;
+        background-color: rgb(0, 132, 255);
+    }
+
+    .btn:active{
+        border: none;
+        color: #fff;
+        background-color: rgb(255, 166, 0);
+    }
+}

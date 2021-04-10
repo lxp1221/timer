@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <title>倒计时</title>
+    <meta charset="UTF-8">
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="./assets/js/timeGeneration.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jun-meter">
+            <div class="jun-time-h" id="hh">{{hostr}}</div>
+            <div class="jun-time-rect"></div>
+            <div class="jun-time-m" id="mm">{{mistr}}</div>
+            <div class="jun-time-s" id="ss">{{sestr}}</div>
+            <div class="jun-human"></div>
+            <div class="jun-date" id="date"></div>
+            <div class="jun-calendar-date" id="calendarDate"></div>
+        </div>
+        <div class="opt">
+            <div class="timeIn">
+                <input type="time" step="1" id="timeInp" v-model="setTime" value="00:00:00">
+                <input type="button" class="btn" id="determine" value="确定" @click="setT"></input>
+            </div>
+            <input type="button" class="btn" value="开始" @click="gettime"></input>
+            <input type="button" class="btn" value="重置" @click="refresh"></input>
+            <input type="button" class="btn" value="时间" @click="ddT"></input>
+            <audio src="audio/Audio.wav" id="au"></audio>
+        </div>
+    </div>
+    <script src="./js/vue.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+<script>
+
+
+
+
+</script>
+
+</html>
